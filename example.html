@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="examplestyle.css">
 </head>
 <body>
     <p> i created a sample</p>
-    <form method="GET" action="#">
-        <label for="name">Enter Name</label><br>
-        <input type="text" id="name" name="name" placeholder="enter your name"><br>
-        <label for="dob">Enter DOB</label><br>
-        <input type="date" id="dob" name="dob"><br>
-        <label for="exam">Exam date</label><br>
-        <input type="date" id="exam" min="2020-11-12" max="2020-11-20" ><br>
-        <label for="Adults">Adults</label>
+    <form method="GET" class="samp" action="#">
+        <label for="name" class="inp">Enter Name</label><br>
+        <input type="text" id="name" name="name" class="input-type" placeholder="enter your name"><br><br>
+        <label for="dob" class="inp" >Enter DOB</label><br>
+        <input type="date" id="dob" class="input-type" name="dob"><br><br>
+        <label for="exam" class="inp">Exam date</label><br>
+        <input type="date" class="input-type" id="exam" min="2020-11-12" max="2020-11-20" ><br><br>
+        <label for="Adults" class="inp">Adults</label>
         <select id="Adults">
             <option value="o">0</option>
             <option value="0">1</option>
-        </select><br>
-        <label for="hobbies">Hobbies</label>
+        </select><br><br>
+        <label for="hobbies" class="inp">Hobbies</label>
         <select id="hobbies">
             <option value="cricket">cricket</option>
             <option value="cricket">gardening</option>
             <option value="cricket">Books</option>
-        </select><br>
-        <input type="submit" onclick="alert('Submit?')">
+        </select><br><br>
+        <label for="language" class="inp">languages :</label><br>
+        <input type="checkbox">English<br>
+        <input type="checkbox">Telugu<br>
+        <input type="checkbox">Hindi<br><br>
+        <input type="submit" class="sub" onclick="alert('Submit?')">
     </form>
     <table>
         <tr>

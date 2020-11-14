@@ -1,0 +1,33 @@
+.samp{
+    background-color: greenyellow;
+    width: 80%;
+    overflow: hidden;
+}
+p{
+    background-color: yellow;
+    text-align: center;
+}
+body{
+    background-color: pink;
+}
+.input-type{
+    width: 80%;
+    min-height: 2em;
+    padding: auto;
+    border: none;
+}
+.inp{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    font-size: small;
+}
+.sub{
+    background-color: lightseagreen;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+}
+.sub:hover{
+    background-color:darkcyan;
+}
