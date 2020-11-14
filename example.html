@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="examplestyle.css">
 </head>
 <body>
-    <p> i created a sample</p>
+    <p> I created a sample Form</p>
     <form method="GET" class="samp" action="#">
         <label for="name" class="inp">Enter Name</label><br>
         <input type="text" id="name" name="name" class="input-type" placeholder="enter your name"><br><br>
@@ -15,7 +15,7 @@
         <input type="date" id="dob" class="input-type" name="dob"><br><br>
         <label for="exam" class="inp">Exam date</label><br>
         <input type="date" class="input-type" id="exam" min="2020-11-12" max="2020-11-20" ><br><br>
-        <label>Image</label> <input type="image" src="hi.jpg"  width="50" height="50" accept=image/png></br>
+        <label>Image</label> <input type="image" src="hi.jpg"  width="50" height="50" accept=image/png></br><br>
         <label for="Adults" class="inp">Adults</label>
         <select id="Adults">
             <option value="o">0</option>
@@ -38,6 +38,8 @@
         <label for="female">Female</label>
         <input type="radio" class="gender" id="other" name="gender" value="male">
         <label for="other">other</label><br><br>
+        <label>Address :</label><br>
+        <textarea rows="3" cols="50" name="Address" placeholder="Enter Address"></textarea><br></br>
         <input type="submit" class="sub" onclick="alert('Submit?')">
     </form>
     <table>
